@@ -1,0 +1,20 @@
+/* Your CSS file */
+
+.about-us-container {
+    padding: 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+  }
+  
+  .about-us-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about-us-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #555;
+  }
+  

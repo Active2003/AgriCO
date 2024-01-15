@@ -1,0 +1,104 @@
+/* Home.css */
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 60px); /* Adjust as needed */
+    overflow: hidden;
+  }
+  
+  .video-content {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .schemes-description {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff; /* Adjust background color */
+  }
+  
+/* Home.css */
+
+/* ...existing styles... */
+
+.video-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Text color */
+}
+
+.video-overlay h1 {
+  font-size: 3em; /* Increased font size for h1 */
+  margin-bottom: 10px;
+}
+
+.video-overlay p {
+  font-size: 1.5em; /* Increased font size for p */
+}
+
+/* Your CSS file */
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px; /* Adds space between logo and text */
+  }
+  
+  .logo-text {
+    font-size: 1.2em; /* Adjust the font size */
+  }
+    
+/* Your CSS file */
+
+.scheme-section {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+  }
+  
+  .section-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  
+  .scheme-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .scheme-card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .scheme-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .scheme-description {
+    font-size: 1em;
+    color: #555;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .video-background {
+      height: calc(100vh - 100px); /* Adjust for smaller screens */
+    }
+  }
+  
